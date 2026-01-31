@@ -1,0 +1,43 @@
+.center {
+    display: flex;
+    list-style: none;
+    gap: 5vh;
+    margin-top: 3vh;
+}
+
+
+
+
+a {
+    text-decoration: none;
+      color: gray;
+    
+}
+
+a:hover {
+     color: black;
+     transition: ease-in 0.5s;
+      
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+
+
+@media screen and (max-width: 767px) {
+      nav {
+        display: grid;
+        text-align: center;
+        margin-right: 5vh;
+      }
+
+      .center {
+        gap: 2vh;
+        margin-top: 1vh;
+      }
+}

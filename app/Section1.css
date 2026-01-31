@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+
+.sec1 {
+    background-image: url('../images/image1.jpg');
+    opacity: 85%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20vh;
+    color: white;
+    font-weight: 999;
+}
+
+.btn {
+    width: 140px;
+    padding: 1.5vh;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(12, 171, 224);
+    color: white;
+    font-size: 17px;
+}
