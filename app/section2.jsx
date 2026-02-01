@@ -1,33 +1,14 @@
-import css from './section2.css'
-
-export default function section2() {
+import css from './Section2.css'
+import img1  from '../images/img1.jpg'
+import Image from 'next/image'
+export default function Section2() {
     
    return(
     <div>
-        <div>
-             <div className="text_area">
-                <p>Your Space</p>
-                <h3>Unique <br /> Life</h3>
-                <p>Explore Items</p>
-             </div>
-             <img src="" alt="" />
-        </div>
-        <div>
-              <div className="text_area">
-                <p></p>
-                <h3></h3>
-                <p></p>
-             </div>
-             <img src="" alt="" />
-        </div>
-        <div>
-              <div className="text_area">
-                <p></p>
-                <h3></h3>
-                <p></p>
-             </div>
-             <img src="" alt="" />
-        </div>
+        <Image
+        src={img1}
+        alt="card" />
+        <p>gyg</p>
     </div>
    )
 
