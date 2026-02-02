@@ -1,0 +1,41 @@
+.divv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+.txt_ar {
+    display: grid;
+}
+
+.part_1,.part_2 {
+    display: flex;
+    gap: 5vh;
+    text-align: center;
+}
+
+.part_1 {
+    margin-bottom: 5vh;
+}
+
+span {
+    color: #23856D;
+    margin-left: 3vh;
+}
+
+
+@media screen and (max-width: 767px) {
+      .divv {
+        display: grid;
+      }
+
+      .img1 {
+        width: 430px;
+      }
+
+      .part_1,.part_2 {
+        display: grid;
+        margin-top: 3vh;
+      }
+}
