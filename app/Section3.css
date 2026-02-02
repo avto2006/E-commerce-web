@@ -1,0 +1,14 @@
+span {
+    color: #23856D;
+    margin-left: 3vh;
+}
+
+.divv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt_area {
+    display: grid;
+    text-align: center;
+}

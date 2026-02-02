@@ -1,4 +1,4 @@
-import css from './Section2.css'
+import './Section2.css'
 import img1  from '../images/img1.jpg'
 import Image from 'next/image'
 import src1 from '../images/product-cover-5.svg'
